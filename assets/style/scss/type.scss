@@ -28,5 +28,6 @@ h1{
 p{
 	@extend %centered-type;
 	@extend %body-type;
-	font-size:3rem;
+	font-size:1rem;
+	padding:1rem 0rem;
 }
