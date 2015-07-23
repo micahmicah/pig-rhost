@@ -832,4 +832,43 @@ or wrap each row of columns in a <div class="row"> */
   width: 0;
   height: 0; }
 
+h1 {
+  font-family: "Woodkit Reprint 3";
+  font-style: Normal;
+  font-weight: 400;
+  font-stretch: normal; }
+
+h1 {
+  font-size: 20vw; }
+
+h1, p {
+  text-align: center; }
+
+p {
+  font-family: georgia, times, serif; }
+
+p {
+  font-size: 3rem; }
+
+p {
+  border: 1px solid #f0f0f0; }
+
+body {
+  background: #1e1e1e; }
+
+h1 {
+  color: #f0f0f0;
+  animation: flicker 0.2s infinite; }
+
+p {
+  color: #f0f0f0;
+  width: 50%;
+  margin: 0 auto; }
+
+@keyframes flicker {
+  from {
+    color: #1e1e1e; }
+  to {
+    color: #f0f0f0; } }
+
 /*# sourceMappingURL=site.css.map */

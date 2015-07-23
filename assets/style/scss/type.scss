@@ -1,0 +1,32 @@
+
+
+%wood-type{
+	font-family: "Woodkit Reprint 3";
+	font-style: Normal;
+	font-weight: 400;
+	font-stretch: normal;
+}
+
+%giant-type{
+	font-size:20vw;
+}
+
+%centered-type{
+	text-align:center;
+}
+
+%body-type{
+	font-family:georgia, times, serif;
+}
+
+h1{
+	@extend %wood-type;
+	@extend %giant-type;
+	@extend %centered-type;
+}
+
+p{
+	@extend %centered-type;
+	@extend %body-type;
+	font-size:3rem;
+}
